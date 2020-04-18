@@ -88,7 +88,7 @@ $capabilities = [
 
     // Capability for users to create delete data request for their own.
     'tool/dataprivacy:requestdelete' => [
-        'riskbitmask' => RISK_DATALOSS,
+        'riskbitmask' => RISK_PERSONAL,
         'captype' => 'write',
         'contextlevel' => CONTEXT_USER,
         'archetypes' => [
